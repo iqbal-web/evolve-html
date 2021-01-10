@@ -1,0 +1,139 @@
+/* XL (laptop) Device :1200px. */
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  header .top-bar .single-bar .single-bar-content a {
+    font-size: 13px;
+  }
+  header .top-bar .single-bar .single-bar-content p {
+    font-size: 13px;
+  }
+  header .meanu-area .main-menu ul li a {
+    font-size: 13px;
+  }
+  header .banner .banner-info .dark-overlay .banner-content p {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .blog-area .blog-box .main-blog .blog-content .blog-title h4 {
+    font-size: 12px;
+  }
+  .blog-box .sub-blog .small-blog .blog-content .blog-title h4 {
+    font-size: 9px;
+  }
+  .blog-box .sub-blog .small-blog .blog-content .blog-title h4 i {
+    font-size: 10px;
+  }
+  .blog-grid-area .blog-grid .small-blog .blog-content .blog-title h4 {
+    font-size: 12px;
+  }
+  .blog-grid-area .blog-grid .small-blog .blog-content .blog-title h4 i {
+    font-size: 15px;
+  }
+  .blog-details-area .blog-info .small-blog .blog-content .blog-title a {
+    font-size: 16px;
+  }
+  .blog-details-area .replay-area .people-comment-btn .btn {
+    padding: 10px 30px;
+  }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  header .top-bar .single-bar .single-bar-content a {
+    font-size: 10px;
+  }
+  header .top-bar .single-bar .single-bar-content a i {
+    margin-right: 4px;
+    margin-top: 5px;
+  }
+  header .meanu-area .main-menu {
+    margin-top: 0;
+  }
+  header .meanu-area .main-menu ul li a {
+    font-size: 12px;
+  }
+  header .banner .banner-info .dark-overlay .banner-content p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .project-area .tabs-area ul li a {
+    padding: 5px 10px;
+  }
+  .testimonial-area .testimonial-info .dark-overlay .testimonial-content .slider-area .single-testimonial .testimonial-back {
+    padding: 40px 30px;
+  }
+  .blog-area .blog-box .sub-blog {
+    margin-top: 0;
+  }
+  .counter-area .single-coutnerup .count-num::before {
+    background: #FFA500;
+    content: '';
+    height: 3px;
+    width: 70px;
+    left: 308px;
+    top: 125px;
+  }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  header .banner .banner-info .dark-overlay .banner-content p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services-area .service-content .single-service {
+    width: 100%;
+  }
+  .project-area P {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .project-area .tabs-area ul li {
+    margin-bottom: 30px;
+  }
+  .testimonial-area .testimonial-info .dark-overlay .testimonial-content .slider-area .single-testimonial .testimonial-back {
+    padding: 40px 20px;
+  }
+  .testimonial-area .testimonial-info .dark-overlay .testimonial-content .slider-area .single-testimonial .testimonial-back .icon-area i {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .testimonial-area .testimonial-info .dark-overlay .testimonial-content .slider-area .single-testimonial .testimonial-back .icon-area i {
+    font-size: 18px;
+    margin-top: 90px;
+  }
+  .testimonial-area .testimonial-info .dark-overlay .testimonial-content .slider-area .single-testimonial .testimonial-back {
+    padding: 0;
+  }
+  .testimonial-area .testimonial-info .dark-overlay .testimonial-content .slider-area .single-testimonial {
+    padding: 0;
+  }
+  .blog-area .blog-box .sub-blog {
+    margin-top: 0;
+  }
+  .blog-area .blog-box .main-blog .blog-content .meta-title a i {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .blog-area .blog-box .main-blog .blog-content .meta-title a span {
+    font-size: 9px;
+  }
+  .blog-area .blog-box .sub-blog .small-blog .blog-content .meta-title a i {
+    margin-right: 5px;
+  }
+  .blog-area .blog-box .sub-blog .small-blog .blog-content .meta-title a span {
+    font-size: 9px;
+  }
+  .counter-area .single-coutnerup .count-num::before {
+    display: none;
+  }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  header .banner .banner-info .dark-overlay .banner-content p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
